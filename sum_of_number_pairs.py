@@ -9,7 +9,7 @@
 def main():
     # Explaining my program to the user.
     print(
-        "Welcome to my program in python/C++. It will generate all the positive 2 digits number pairs that have a sum of a number of your choice between 20 and 100."
+        "Welcome to my program in python. It will generate all the positive 2 digits number pairs that have a sum of a number of your choice between 20 and 100."
     )
 
     # Getting user number as a string.
@@ -17,6 +17,7 @@ def main():
 
     # Initiating try catch to catch any errors.
     try:
+        # Converting the user's input variable from a string to an integer.
         number_as_integer = int(number_as_string)
 
         # If statement to verify that the number entered by the user is between the range 20 and 100.
